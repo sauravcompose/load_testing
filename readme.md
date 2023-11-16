@@ -3,3 +3,5 @@
 
 2. Command to run load test script and store in csv
 ===> k6 run --out csv=result.csv script.js
+
+3. K6 installation guide ===> https://k6.io/docs/get-started/installation/
