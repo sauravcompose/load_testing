@@ -17,7 +17,7 @@ axios.get(url)
             urlList = result;
         });
 
-        let records = urlList.urlset.url.slice(0, 10).map(i => {
+        let records = urlList.urlset.url.map(i => {
             return { url: i.loc[0].replace(/<\/?loc>/g, '').replace('https://www.bikeexchange.de/', 'https://d1iwqyn9u48vu3.cloudfront.net/api/cms-app/v1/Page?urlSlug=%2F') }
         });
 
