@@ -40,17 +40,6 @@ export default function () {
                 },
             });
         }
-
-        // let res = http.get(url, {
-        //     headers: {
-        //         'accept': 'application/json',
-        //         'vertical': 'de',
-        //         'locale': 'de-DE',
-        //     },
-        // });
-
-        // check(res, { "status was 200": (r) => r.status == 200 });
-        // sleep(1);
     });
 
     for (let urls of arr) {
